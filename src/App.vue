@@ -4,7 +4,7 @@
       <v-treeview :items="items" item-key="name" open-on-click></v-treeview>
     </div>
     <context-menu ref="menu">
-      <li v-on:click="trash_empty()">text1</li>
+      <li>text1</li>
       <li>text2</li>
       <li>text3</li>
       <li>text4</li>
